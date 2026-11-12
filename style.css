@@ -110,7 +110,7 @@ footer{background:#252921;color:#f7f5ef}
  .cards article:not(:first-child) .dish{flex-direction:column}
 }
 
-.gallery-photos{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(12px,3vw,36px)}
+.gallery-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,3vw,36px)}
 .gallery-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .visit{display:block;max-width:740px;border-top:1px solid var(--edge)}
 @media(max-width:700px){.gallery-photos{grid-template-columns:1fr}}
